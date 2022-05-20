@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <style>
+        :root{
+  --primery-color:#FF6F61;
+  --secondary-color:lightgray;
+  --third-color:#345654
+        }
+       html{
+           height:100%;
+       }
+        body{
+            padding-top:100px;
+            height: 100%;
+            text-decoration: none;      
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+            letter-spacing: 1px;    
+            background-color: var(--secondary-color);        
+                
+        }
+
+        nav span{
+            font-size: 20px;;
+            margin: 0 4rem 5rem 4rem;
+        }
+nav a{
+    text-decoration: none;
+    color: white;
+}
+        header{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0px 0px 250px gray;
+            width: 100%;
+            top:0px;
+    position: fixed;
+    z-index:2;
+            border-bottom: 4px solid var(--third-color);
+            background-color:var(--primery-color);
+        }
+        
+        #myimage{
+            background: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <header height="100%" >
+                <a href="/" ><div id="logo" style="margin: 0 60rem 0 0; background-image: url(/logos/logo.png);background-size: cover; background-position: center;
+                ;  border:4px solid var(--third-color); width:100px; height:100px;
+         border-radius:100%; box-shadow: 0px 0px 10px var(--third-color);"></a>
+            <!-- logo -->
+                <!-- <h1 style="position:absolute;top:0px; bottom: 20rem ;left:0.5rem; z-index:1; font-size: 100px;">▩</h1>
+            <h2 style="position: absolute; left:1.5rem; z-index:3; color:aqua">MV </h2>
+            <h1 style="position: absolute;  font-size: 36px; color: rgba(255, 255, 255, 0.822); z-index:2;">MMM</h1> -->
+        </div>
+                <nav height="100%"  >
+                    <span><a href="#">Home</a></span>
+                    <span><a href="/pages/about.html">About me</a></span>
+                <span><a href="/pages/Contact.html">Contect</a></span>
+                </nav>
+    </header>
+    <br>
+    <br><br>
+    <main style="height: auto;">
+        <!-- video section -->
+        <section style="background-color:lightgray; border-bottom: 2px solid lightgray;">
+            <video width="100%" height="350vh" controls autoplay muted >
+                <source src="/video/TheBreathtakingBeauty.mp4" type="video/mp4">
+                <source src="/video/TheBreathtakingBeauty.ogg" type="video/ogg">
+              Your browser does not support the video tag.
+              </video>
+        </section>
+        <!-- about me  -->
+        <br>
+        <br>
+        <section  style="margin:0 0 0 150px ; width: 50%; height:80vh" align="center">
+<div style="float:right; width:300px;height:350px; background:gray; border:10px solid var(--primery-color);box-shadow: 0px 0px 5px gray;" id="img-div">
+</div>
+
+<div style="width:350px;height:100%;text-align: center; margin: 0 0 0 250px;" >
+    <h2 style="color:var(--third-color)" id="headingIntro">Maundrian</h2>
+    <!-- <p> My name is MonnusI'v been a self study web developer for 3 years i specialice in <i>html</i>,<i>css</i> and <i>jJavascript</i>. I have a deep pashione for creating stunning smooth websites
+    i believe that having a good website functional website helps clients  or consumer find information that's most crushial to them this helps biuld trust among those who viisit the vebsite and the person who owns it.</p>
+       
+       <p> I am a person who believe's one should always try to better them selves by faacing new challanges," always doing what your best at is not finding the solution"
+           this is especially true to coding, having this mind set  provides a perfect candedit for any perticullar problem you may have
+       </p> -->
+       <button style="background-color:var(--primery-color); width:100px; height:50px;font-size: 20px; box-shadow: 0px 0px 5px gray;">More...</button>
+   </div>
+        </section>
+
+</main>
+<br>
+<br>
+<br>
+        <!-- footer section -->
+            <footer style="text-align:center; height:20vh; background: #000; width:100%; border-top:1px solid lightslategray; color:white">
+                <br>
+<span><a href="#">facebook</a></span> 
+<span><a href="#">Email:maun2velsket@gmail.com</a></span>
+<span><a href="#">instagram</a></span>
+<span>My number <i>0769099742</i></span>
+            </footer>
+            <script src="/js files/index.js"></script>
+</body>
+</html>
